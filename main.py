@@ -7,6 +7,8 @@ from PIL import Image
 import logging
 from datetime import datetime
 import os
+from pydantic import BaseModel  
+# Importación explícita de BaseModel
 
 # Configuración de logging
 logging.basicConfig(level=logging.INFO)
